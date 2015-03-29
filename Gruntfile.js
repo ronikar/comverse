@@ -9,9 +9,20 @@ module.exports = function (grunt) {
 				dest: 'outline.html'
 				}]
 			}
+		},
+		watch: {
+		  scripts: {
+			files: ['outline.md'],
+			tasks: ['md2html'],
+			options: {
+			  spawn: false,
+			}
+		  }
 		}
 	})
 	
+	
 	grunt.loadNpmTasks('grunt-md2html');
-
+	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.registerTask('default', ['watch']);
 };
