@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -20,51 +21,59 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-		<header>
-			<h1>COMVERSE</h1>
+		<header class="comverse-header">
+			<!--<h1>COMVERSE</h1>-->
+			<img class="comverse-logo" src="img/comverse-logo.png" alt="comverse logo"/>
 			
 			<nav>
-				<h2>menu</h2>
-				<ol>
-					<li>EN</li>
-					<li><a href="">Customer login</a></li>
-				</ol>
+				<h2 hidden >menu</h2>
+				
 				<ol>
 					<li><a href="">YOUR NEEDS</a></li>
 					<li><a href="">OUR PORTFOLIO</a></li>
 					<li><a href="">NEWS & MEDIA</a> </li>
 					<li><a href="">ABOUT COMVERSE</a></li>
+					
+				</ol>
+				<ol>
+					<li>EN</li>
+					<li><a href="">Customer login</a></li>
 					<li><a href="">SEARCH</a> </li>
 				</ol>
 			</nav>
 		</header>
-		<section>
-			<header>
+		
+		<section class="banner">
+			<section class="main-banner">
 				<h2>Free Your Market Form IT Complexity</h2>
-			</header>
-			<section>
+			
+			
 				<h3>Comverse Policy Studio 1st Ever Marketign-Oriented Policy Tool</h3>
-				<a href="">LEARN MORE</a>
+				<a href="" class="link-button">
+				LEARN MORE
+				<img src="img/btnArrow.png"/>
+				</a>
 			</section>
-			<section>
+			<section class="list-box-banner">
 				<ul>
 					
-						<li>
+						<li class="banner-box white-font">
 							<h3>Comverse Is Value-Added Service Global Market Leader</h3>
-							<a href="">Read More</a>
+							<a href=""><img src="img/link-icon-image.png"/>Read More</a>
 						</li>
-						<li>
+						<li class="banner-box white-font">
 							<h3>Managed Service World Congress September 18-19 Berlin, Germany</h3>
-							<a href="">Read More</a>
+							<a href=""><img src="img/link-icon-image.png"/>Read More</a>
 						</li>
-						<li>
+						<li class="banner-box white-font">
 							<h3>Comverse Enabling a world of Conected Possibilities</h3>
-							<a href="">Watch Now</a>
+							
+							<a href=""><img src="img/link-icon-image.png"/> Watch Now</a>
 						</li>
 				</ul>
 			</section>
 		</section>
-		<section>
+		<section class="solutions">
 			<header>
 			<h2>WHAT CAN WE DO FOR YOU?</h2>
 			</header>
@@ -78,41 +87,53 @@
 				</ul>
 			<a href="">see all of our solutions</a>
 		</section>
-		<section>
+		<section class="event">
 			<header>
 				<h2>WHAT'S HAPPENING AT COMVERSE?</h2>
 			</header>
 			<ul>
 				<li>
-					<section>
+					<section class="news">
 						<h3>NEWS</h3>
 						<ul>
-							<li itemscope itemtype="http://schema.org/NewsArticle" >
-								<a href="">
-									<time itemprop="datePublished" datetime="2014-09-04">04 SEP</time>
-									<p itemprop="articleBody"> Comverse Regains Lead In Convergent Charging Market Regians Lead In</p>
-								</a>
+							<li class="post-box">
+								<article class="post-item" itemscope itemtype="http://schema.org/NewsArticle">
+								
+									<time class="datePublish" itemprop="datePublished" datetime="2014-09-04">
+										<div class="day">04</div>
+										<div class="month">SEP</div>
+									</time>
+									<p itemprop="articleBody">Comverse Regains Lead In Convergent Charging Market Regians Lead In</p>
+								</article>
 								<a href="">All News</a></p>
 							</li>
 						</ul>
 					</section>
 				</li>
 				<li>
-					<section>
+					<section class="events">
 						<h3>EVENTS</h3>
 						<ul>
-							<li itemscope itemtype="http://schema.org/Event">
-								<a href="">
-									<time itemprop="doorTime" datetime="2014-09-04">04 SEP</time>
-									<p itemprop="description"> Comverse Regains Lead In Convergent Charging Market Regians Lead In</p>
-								</a>
+							<li class="post-box">
+								<article class="post-item" itemscope itemtype="http://schema.org/NewsArticle">
+								
+									<time class="datePublish" itemprop="datePublished" datetime="2014-09-04">
+										<div class="day">04</div>
+										<div class="month">SEP</div>
+									</time>
+									<p itemprop="articleBody">Comverse Regains Lead In Convergent Charging Market Regians Lead In</p>
+								</article>
 								<a href="">All EVENT</a></p>
 							</li>
-							<li itemscope itemtype="http://schema.org/Event">
-								<a href="">
-									<time itemprop="doorTime" datetime="2014-09-04">04 SEP</time>
-									<p itemprop="description"> Comverse Regains Lead In Convergent Charging Market Regians Lead In</p>
-								</a>
+							<li class="post-box">
+								<article class="post-item" itemscope itemtype="http://schema.org/NewsArticle">
+								
+									<time class="datePublish" itemprop="datePublished" datetime="2014-09-04">
+										<div class="day">04</div>
+										<div class="month">SEP</div>
+									</time>
+									<p itemprop="articleBody">Comverse Regains Lead In Convergent Charging Market Regians Lead In</p>
+								</article>
 								<a href="">All EVENT</a></p>
 							</li>
 						</ul>
@@ -120,10 +141,10 @@
 				</li>
 			</ul>
 		</section>
-		<section>
+		<section class="success-story">
 			<h2>SUCCESS STORIES</h2>
 			<ul>
-				<li>
+				<li class="big-success-story">
 					<blockquote>"We have very good and very warm relations with Comverse. We always achievet..."</blockquote>
 					<cite itemscope itemtype="http://schema.org/Person">
 						<span itemprop="name">SERGY KOROTYCH</span>
@@ -137,7 +158,7 @@
 				<li><a href="">MTC</a></li>
 				<li><a href="">CABLE & WIRELESS</a></li>
 				<li><a href="">Trilogy International Partners</a></li>
-				<li>
+				<li class="big-success-story">
 					<blockquote>"Comverse has demonstrated that they are partners, not just suppliers, because they understand our needs, our situations; together we ar.."
 					</blockquote>
 				<cite itemscope itemtype="http://schema.org/Person">
@@ -147,7 +168,7 @@
 				<a href="">MULTI-LINKI</a>
 				</cite>
 				</li>
-				<li>
+				<li class="big-success-story">
 				<blockquote>"Comverse has been able to fully deliver what we want and we have peers..</blockquote>
 				<cite itemscope itemtype="http://schema.org/Person">
 					<span itemprop="name">RAVISHANKER</span>
@@ -167,7 +188,7 @@
 		</section>
 
 		<footer>
-			<ul>
+			<ul class="footer-links-list">
 				<li>
 				<h3>
 					KEY SOLUTIONS

@@ -1,0 +1,85 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.comverse-header{
+	width: 100%;
+    background: #FFFFFF; 
+}
+
+header ol{
+	list-style-type:none;
+}
+
+nav li{
+	font-size:12px;
+}
+
+nav li a{
+	
+	text-decoration:none;
+	color: black;
+}
+.banner{
+margin-top:75px;
+background-image:url(../img/slide-bg-complexity.jpg);
+background-attachment: fixed;
+}
+.banner h3{
+	font-weight: normal;
+}
+
+.link-button {
+  background: #1975D1;
+  padding: 5px 20px 5px 10px;
+  text-decoration:none;
+  border-radius: 5px;
+  color: white;
+  font-size:13px;
+}
+
+
+.link-button img{
+padding-left:5px;
+	height:10px;
+	width:10px;
+}
+
+.banner-box{
+	background-color:rgba(0, 0, 153,0.5);
+	width:225px;
+	border-radius:5px;
+	padding: 5px;
+	
+}
+.banner-box h3{
+	margin:0px;
+	font-weight: lighter;
+	padding-bottom:15px
+}
+.banner-box a{
+	text-decoration:none;
+	font-size:12px;
+	font-weight:bold;
+	color:white;
+}
+.banner-box img{
+	height:20px;
+	width:20px;
+	padding-right:5px;
+}
+
+.solutions ul {
+	display:block;
+	width:80%;
+	
+}
+.solutions li {
+width:100px;
+padding:20px;
+display:inline;
+}
+
+.white-font{
+	color:white;
+}
