@@ -10,19 +10,36 @@ module.exports = function (grunt) {
 				}]
 			}
 		},
+		
+		 connect: {
+			server: {
+			  options: {
+				port: 8080,
+				protocol: 'http',
+				base: '.',
+				hostname: 'localhost'
+				}		
+			  }
+			},
+		
 		watch: {
 		  scripts: {
-			files: ['outline.md'],
-			tasks: ['md2html'],
-			options: {
-			  spawn: false,
-			}
+		    files: ['**/*.css'],
+		    options: {
+		      spawn: false,
+		      livereload: true,
+		    }
 		  }
 		}
+		 
+
 	})
 	
 	
 	grunt.loadNpmTasks('grunt-md2html');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.registerTask('default', ['watch']);
+	grunt.loadNpmTasks('grunt-contrib-connect');
+	
+	grunt.registerTask('default', (['connect','watch']));
+	
 };
