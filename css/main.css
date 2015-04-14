@@ -8,6 +8,10 @@ a{
 	color: white;
 }
 
+ul,ol
+{
+	list-style-type:none;
+}
 
 .comverse-header{
 	color:black;
@@ -20,10 +24,7 @@ a{
 {
 	color:black;
 }
-header ol{
-	list-style-type:none;
-	
-}
+
 
 nav li{
 	font-size:12px;
@@ -154,14 +155,14 @@ display:block;
 	
 }
 
-.day{
+.datePublish div:first-child{
 display:block;
 
 font-size:300%;
 border-bottom-style: dotted;
 border-bottom-width: 1px;
 }
-.month{
+.datePublish div{
 	display:block;
 	font-size:130%;
 }
@@ -200,10 +201,33 @@ border-bottom-width: 1px;
 }
 
 
+.up-quote p:before
+{
+	content: url("../img/quote-grey.png");
+}
+
+.up-quote p:after
+{
+	content: url("../img/quote-grey.png");
+}
+
 .big-success-story cite{
 border-top-width:1px;
 border-top-style:solid;
 border-top-color:gray;
+}
+.big-success-story cite span:first-of-type{
+font-weight:bold;
+color:rgb(0, 153, 255);
+}
+
+.big-success-story>img{
+	height:100px;
+	width: 100px;
+}
+.big-success-story cite img{
+		width: 100px;
+		height: 42px;
 }
 .success-story img{
 	height: 94px;
@@ -214,3 +238,52 @@ border-top-color:gray;
 .white-font{
 	color:white;
 }
+footer{
+	background-color:black;
+}
+
+footer h3{
+	font-size:13px;
+	font-weight:bold;
+}
+
+footer a{
+	font-size:12px;
+	font-weight:lighter;
+}
+footer>aside {
+	background-color: rgba(255, 255, 255,0.1);
+	
+}
+
+footer>aside>h3  {
+	
+	font-size:20px;
+	color:rgb(0, 153, 255);
+}
+
+
+footer time {
+font-size:20px;
+}
+footer time :first-child{
+font-size:35px;
+font-weight:bold;
+}
+
+footer .copyright,
+footer .copyright a
+{
+font-size:10px;
+}
+
+#twitter-icon:hover img{
+	content: url("../img/socialMenuIcon-twitter_hover.png");
+}
+#youtube-icon:hover img{
+	content: url("../img/socialMenuIcon-youtube_hover.png");
+}
+#linkin-icon:hover img{
+	content: url("../img/socialMenuIcon-linkdin_hover.png");
+}
+
