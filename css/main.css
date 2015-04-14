@@ -229,11 +229,26 @@ color:rgb(0, 153, 255);
 		width: 100px;
 		height: 42px;
 }
-.success-story img{
+.small-story img{
 	height: 94px;
 	width: 107px;
 	display:inline-block;
  }
+ 
+.up-image { 
+    position: relative;
+	margin-left:0;
+    left: -107px;
+    overflow-x: hidden;
+	-webkit-transition: 0.7s;
+	transition-property: all;
+	max-height: 94px;
+}
+
+.small-story:hover .up-image {
+    max-height: 0px;
+}
+
  
 .white-font{
 	color:white;
