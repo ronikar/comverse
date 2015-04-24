@@ -571,7 +571,7 @@ display:block;
 }
 .success-story{
 	color:black;
-	background-color:white;
+	background-color:grey;
 }
 .success-story  a{
 	color:black;
@@ -596,13 +596,19 @@ display:block;
 
 .success-story ul{
 padding-left:0;
-width:305px;
+width:310px;
+display:inline-block;
 
+vertical-align:top;
+margin-left:5px;
 
 }
 
 .success-story ul>li{
 	display:inline-block;
+	background-color:white;
+	margin-top:10px;
+	border-radius:5px;
 }
 
 
@@ -680,6 +686,7 @@ font-size:14px;
 	float:left;
 	width:100px;
 	height:90px;
+	
 
 }
 
@@ -688,6 +695,7 @@ font-size:14px;
 	height: 90px;
 	width: 100px;
 	display:inline-block;
+	border-radius:5px;
  }
  
 .up-image { 
