@@ -312,7 +312,6 @@ ul,ol
 	position:fixed;
 	left:0;
 	top:0;
-	padding-bottom:10px;
 	display:block;
 	
 }
@@ -329,8 +328,9 @@ ul,ol
 float:left;
 }
 
-.comverse-header li{
+.comverse-header ol>li{
 display:inline-block;
+position: relative;
 }
 .top-right-nav {
 position:absolute;
@@ -340,6 +340,7 @@ top:0;
 .comverse-header a
 {
 	color:black;
+	line-height:20px;
 }
 nav{
 display:inline-block;
@@ -351,7 +352,9 @@ nav ol{
 margin-bottom:1px;
 }
 
-.comverse-header li{
+
+
+.comverse-header ol>li >a{
 	font-size:12px;
 	padding-right:0.3em;
 	padding-left:0.3em;
@@ -361,8 +364,35 @@ margin-bottom:1px;
 	text-shadow: 0.3px 0.5px #888888;
 	font-weight:lighter;
 }
-.comverse-header li:first-child{
+.comverse-header ol>li:first-child a{
 border-left-style:none;
+}
+.comverse-header ol>li{
+	padding-bottom:10px;
+}
+
+nav ol>li>ul{
+	border: 1px solid rgba(255, 255, 255, 1);
+	border-top: none;
+	display: none;
+	position: absolute;
+	top:30px;
+	left: 0;
+	width: 100%;
+	background-color:rgba(255, 255, 255,0.9);
+	text-align:left;
+	padding:0;
+	
+}
+
+nav ol> li:hover > ul {
+  display: block;
+  padding:5px;
+  box-shadow: 3px 3px 3px rgb(112, 112, 112);
+}
+
+.comverse-header li a:hover{
+	color:blue;
 }
 
 .banner{
