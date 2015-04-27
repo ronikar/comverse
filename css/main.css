@@ -407,10 +407,13 @@ margin-bottom:0;
 .banner h2{
 	padding-top:20px;
 	padding-bottom:20px;
-	font-weight: normal;
+	font-size:30px;
+	
 }
 .banner h3{
-	font-weight: normal;
+	font-size:20px;
+	width:300px;
+	padding-bottom:30px;
 }
 
 .link-button {
@@ -428,6 +431,32 @@ padding-left:5px;
 	height:10px;
 	width:10px;
 }
+
+.squre-link-slide a{
+	display:block;
+	height:15px;
+	width:15px;
+	background-color:white;
+	border-left-width:2px;
+	opacity:0.7;
+	
+}
+.squre-link-slide a:hover,
+.squre-link-slide a:hover
+{
+	
+	opacity:1;
+	
+}
+
+.squre-link-slide li{
+	display:inline-block;
+	padding:1px;
+	}
+	
+.squre-link-slide {
+	padding:5px;
+	}
 
 .pink-background-box
 {
@@ -623,7 +652,12 @@ display:block;
 {
 	content: url("../img/quote-grey.png");
 }
+.success-story{
 
+	text-align:center;
+	background-color:rgb(236,236,236);
+	padding-bottom:10px;
+}
 .success-story ul{
 padding-left:0;
 width:310px;
@@ -631,7 +665,7 @@ display:inline-block;
 
 vertical-align:top;
 margin-left:5px;
-
+text-align:left;
 }
 
 .success-story ul>li{
@@ -739,6 +773,9 @@ font-size:14px;
 	
 }
 
+ 
+
+
 .small-story:hover .up-image {
     max-height: 0px;
 }
@@ -749,6 +786,7 @@ font-size:14px;
 }
 footer{
 	background-color:black;
+	padding-bottom:1px;
 }
 
 footer h3{
@@ -756,16 +794,46 @@ footer h3{
 	font-weight:bold;
 }
 
+footer ul{
+	padding-left:0;
+	padding-right:10px;
+}
+footer li{
+	padding-left:0;
+	display:inline-block;
+	vertical-align:top;
+	padding-right:10px;
+	
+}
+footer li li{
+	padding-left:0;
+	display:block;
+}
+
+footer ul{
+	width:670px;
+	float:left;
+	
+}
+footer li >ul{
+	width:200px;
+}
+
 footer a{
 	font-size:12px;
 	font-weight:lighter;
 }
-footer>aside {
+footer aside {
 	background-color: rgba(255, 255, 255,0.1);
+	width:260px;
+	float:right;
+	padding-bottom:20px;
+	padding-left:5px;
+	
 	
 }
 
-footer>aside>h3  {
+footer aside>h3  {
 	
 	font-size:20px;
 	color:rgb(0, 153, 255);
@@ -784,6 +852,9 @@ footer .copyright,
 footer .copyright a
 {
 font-size:10px;
+}
+.copyright{
+	clear:both;
 }
 
 #twitter-icon:hover img{
