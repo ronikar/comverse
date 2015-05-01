@@ -12,6 +12,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/mobile_main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     </head>
@@ -24,7 +25,13 @@
         <!-- Add your site or application content here -->
 		
 			<header class="comverse-header">
-				<div class="container">
+				<div class="mobile-bar">
+				
+					<img  src="img/hamburger-icon.png" alt="comverse logo"/>
+					<img class="comverse-logo" src="img/comverse-logo.png" alt="comverse logo"/>
+					<img  src="img/searchBtnMobile.png" alt="comverse logo"/>
+				</div>
+				<div class="container navbar">
 				<!--<h1>COMVERSE</h1>-->
 				
 					<ol class="top-right-nav">
@@ -68,7 +75,6 @@
 							</ul>
 						</li>
 						<li><a href="">ABOUT COMVERSE</a></li>
-						<li><a href="">SEARCH</a></li>
 					</ol>
 					
 				</nav>
@@ -88,10 +94,10 @@
 					</a>
 				</section>
 				<ul class="squre-link-slide">
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
+					<li><a href=""><span class="mobile-addition">1</span> </a></li>
+					<li><a href=""><span class="mobile-addition">2</span> </a></li>
+					<li><a href=""><span class="mobile-addition">3</span></a></li>
+					<li><a href=""><span class="mobile-addition">4</span> </a></li>
 				</ul>
 				<section class="list-box-banner">
 					<ul>
@@ -120,7 +126,7 @@
 				</header>
 					<ul>
 						<li class="solution-container"><a href=""><img src="img/solution_icon_personal.png" alt="icon"/> Data monetization</a></li>
-						<li class="solution-container"><a href=""><img src="img/solution_icon_personal.png" alt="icon"/> Machine to machine(M2M)</a></li>
+						<li class="solution-container"><a href=""><img src="img/solution_icon_biz-transform.png" alt="icon"/> Machine to machine(M2M)</a></li>
 						<li class="solution-container"><a href=""><img src="img/solution_icon_personal.png" alt="icon"/> Over-the-top (OTT)</a></li>
 						<li class="solution-container"><a href=""><img src="img/solution_icon_personal.png" alt="icon"/> Cloud computing</a></li>
 						<li class="solution-container"><a href=""><img src="img/solution_icon_personal.png" alt="icon"/> Managed services</a></li>
@@ -340,7 +346,7 @@
 			</div>
 		</section>
 
-		<footer>
+		<footer class="footer-page">
 			<div class="container">
 				<ul class="footer-links-list">
 					<li>

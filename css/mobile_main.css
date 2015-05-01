@@ -1,0 +1,38 @@
+@media screen and (max-width:600px){
+	.mobile-bar{
+	display:block;
+	padding-top:20px;
+	padding-bottom:20px;
+	}
+	
+	.comverse-header .navbar{
+		display:none;
+	}
+	.squre-link-slide{
+		margin-top:100px;
+	}
+	.squre-link-slide a{
+	opacity:1;
+	padding:10px;
+	border-radius:3px;
+	text-align:center;
+	vertical-align:top;
+	color:white;
+	}
+	.mobile-addition{
+	display:inline;
+	color:black;
+	}
+	.squre-link-slide a:hover span{
+		color:white;
+	}
+	
+	.list-box-banner ul{
+	padding:0;
+	}
+	
+	.list-box-banner li{
+	display:block;
+	width:100%;
+	}
+}

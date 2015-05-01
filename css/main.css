@@ -292,6 +292,7 @@ textarea {
 body{
 	font-family: 'Open Sans', sans-serif;
 	color:white;
+	margin:0;
 }
 a{
 	text-decoration:none;
@@ -301,6 +302,9 @@ a{
 ul,ol
 {
 	list-style-type:none;
+}
+section{
+	width:100%;
 }
 
 .comverse-header{
@@ -316,8 +320,15 @@ ul,ol
 	
 }
 
+@media screen and (min-width:601px){
+	.mobile-bar{
+	display:none;
+	}
+}
+
 .container{ 
-	width: 960px;
+	max-width: 960px;
+	width:100%;
 	margin:auto;
 	margin-top:0px;
 	padding-top:10px;
@@ -345,7 +356,6 @@ top:0;
 nav{
 display:inline-block;
 padding-top:30px;
-width:725px;
 }
 
 nav ol{
@@ -396,10 +406,9 @@ nav ol> li:hover > ul {
 }
 
 .banner{
-margin-top:90px;
+margin-top:60px;
 padding-top:30px;
-background-image:url(../img/slide-bg-complexity.jpg);
-background-attachment: fixed;
+background:url(../img/slide-bg-complexity.jpg) no-repeat center 90px fixed;
 padding-bottom:80px;
 margin-bottom:0;
 }
@@ -444,10 +453,16 @@ padding-left:5px;
 .squre-link-slide a:hover,
 .squre-link-slide a:hover
 {
-	
+	background:rgb(0,122,204);
 	opacity:1;
+	color:white;
 	
 }
+
+.mobile-addition{
+	display:none;
+	}
+
 
 .squre-link-slide li{
 	display:inline-block;
@@ -458,22 +473,25 @@ padding-left:5px;
 	padding:5px;
 	}
 
+.list-box-banner{
+padding:0;
+}	
 .pink-background-box
 {
 	background-color: rgb(255, 51, 153);
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 .green-background-box
 {
 	background-color: rgb(90, 190, 40);
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 .orange-background-box
 {
 	background-color: rgb(255, 102, 0);
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 .pink-background-box:hover,
@@ -485,17 +503,18 @@ padding-left:5px;
 
 .banner-box{
 	
-	width:225px;
+	width:27%;
 	border-radius:5px;
 	padding: 5px;
 	display:inline-block;
-	margin-right:30px;
+	margin-right:3%;
 	
 }
 .banner-box h3{
 	margin:0px;
-	font-weight: lighter;
-	padding-bottom:15px
+	font-size:20px;
+	font-weight: 100;
+	padding:30px 00px 30px 10px
 }
 .banner-box a{
 	font-size:12px;
@@ -506,6 +525,7 @@ padding-left:5px;
 	height:20px;
 	width:20px;
 	padding-right:5px;
+	
 }
 .solutions{
 	margin-top:0;
@@ -521,10 +541,11 @@ margin-top:0;
 }
 
 .solution-container{
-	width:125px;
+	width:130px;
 	vertical-align:top;
 	text-align:center;
 	display:inline-block;
+	vertical-align:top;
 }
 
 .solution-container img{
@@ -544,8 +565,7 @@ display:block;
 
 
 .event{
-	background-image:url(../img/news-and-events-bg.jpg);
-	background-attachment: fixed;
+	background:url(../img/news-and-events-bg.jpg) no-repeat center center fixed;
 	background-size:cover;
 	padding-bottom:40px;
 }
@@ -784,6 +804,17 @@ font-size:14px;
 .white-font{
 	color:white;
 }
+.footer-page{
+padding-bottom:10px;
+overflow-y:hidden;
+}
+
+
+footer .container
+{
+padding:0;
+}
+
 footer{
 	background-color:black;
 	padding-bottom:1px;
@@ -792,6 +823,10 @@ footer{
 footer h3{
 	font-size:13px;
 	font-weight:bold;
+}
+
+.footer-page ol{
+margin:0;
 }
 
 footer ul{
@@ -827,7 +862,7 @@ footer aside {
 	background-color: rgba(255, 255, 255,0.1);
 	width:260px;
 	float:right;
-	padding-bottom:20px;
+	padding-bottom:10px;
 	padding-left:5px;
 	
 	
@@ -848,14 +883,16 @@ font-size:35px;
 font-weight:bold;
 }
 
+footer .copyright{
+display:block;
+}
+
 footer .copyright,
 footer .copyright a
 {
 font-size:10px;
 }
-.copyright{
-	clear:both;
-}
+
 
 #twitter-icon:hover img{
 	content: url("../img/socialMenuIcon-twitter_hover.png");
