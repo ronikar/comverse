@@ -381,6 +381,36 @@ border-left-style:none;
 	padding-bottom:10px;
 }
 
+.search-header{
+padding-left:13%;
+display:inline-block;
+ position:relative;
+text-align:right;
+
+}
+.search-header input{
+width:150px;
+border: 1px solid #ccc;
+position:relative;
+border-radius:5px;
+height:20px;
+padding-left:5px;
+
+}
+.search-header button{
+display:inline;
+border:none;
+background:none;
+position:relative;
+right:30px;
+top:3px;
+cursor:pointer;
+}
+.search-header img{
+height:15px;
+width:15px;
+}
+
 nav ol>li>ul{
 	border: 1px solid rgba(255, 255, 255, 1);
 	border-top: none;
