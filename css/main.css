@@ -880,9 +880,10 @@ padding:0;
 footer{
 	background-color:black;
 	padding-bottom:1px;
+	overflow-x:hidden;
 }
 
-footer h3{
+.footer-links-list h3{
 	font-size:13px;
 	font-weight:bold;
 }
@@ -890,7 +891,7 @@ footer h3{
 .footer-page ol{
 margin:0;
 }
-
+footer ol,
 footer ul{
 	padding-left:0;
 	padding-right:10px;
@@ -907,7 +908,7 @@ footer li li{
 	display:block;
 }
 
-footer .container>ul{
+footer .container>ul.footer-links-list{
 	width:670px;
 	float:left;
 	
@@ -952,7 +953,8 @@ display:block;
 footer .copyright,
 footer .copyright a
 {
-font-size:10px;
+	font-size:12px;
+	font-weight:100;
 }
 
 
@@ -971,6 +973,7 @@ font-size:10px;
 	.banner{
 		padding-bottom:80px;
 		}
+	.mobile-footer,
 	.mobile-addition{
 		display:none;
 	}
@@ -982,7 +985,8 @@ font-size:10px;
 	.squre-link-slide{
 		margin-top:100px;
 	}
+	
 }
 
-}
+
 
