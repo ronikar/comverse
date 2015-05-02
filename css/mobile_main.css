@@ -1,4 +1,4 @@
-@media screen and (max-width:960px){
+@media(max-width:960px){
 	aside{
 		display:none;
 	}
@@ -11,11 +11,39 @@
 	}
 }
 
-@media screen and (max-width:600px){
-	.mobile-bar{
+@media(max-width:767px){
+	.comverse-header{
+	height:90px;
+	}
+	.mobile-header{
+	width:100%;
+	margin:0 auto;
 	display:block;
 	padding-top:20px;
-	padding-bottom:20px;
+	padding-bottom:0px;
+	height:50px;
+	}
+	
+	.mobile-header button{
+	height:40px;
+	width:30px;
+	border-radius:5px;
+	border:1px solid #CCD4CB;
+	
+	}
+	.mobile-navbar{
+	position:absolute;
+	top:30px;
+	left:10px;
+	}
+	.mobile-search{
+		position:absolute;
+		top:30px;
+		right:10px;
+	}
+	.mobile-header>img{
+	display:block;
+	margin:0 auto;
 	}
 	
 	.comverse-header .navbar{
