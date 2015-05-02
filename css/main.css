@@ -518,6 +518,9 @@ padding-left:5px;
 .list-box-banner{
 padding:0;
 }	
+.list-box-banner ul{
+margin:0;
+}
 .pink-background-box
 {
 	background-color: rgb(255, 51, 153);
@@ -552,6 +555,11 @@ padding:0;
 	margin-right:3%;
 	
 }
+.mobile-arrow{
+display:none;
+}
+
+
 .banner-box h3{
 	margin:0px;
 	font-size:20px;
@@ -563,7 +571,7 @@ padding:0;
 	font-weight:bold;
 	color:white;
 }
-.banner-box img{
+.read-more img{
 	height:20px;
 	width:20px;
 	padding-right:5px;
@@ -588,6 +596,7 @@ margin-top:0;
 	text-align:center;
 	display:inline-block;
 	vertical-align:top;
+	overflow-x:hidden;
 }
 
 .solution-container img{
@@ -601,6 +610,7 @@ display:block;
 .solutions ul {
 	display:block;
 	margin-bottom:50px;
+	padding-left:0;
 	
 }
 
@@ -626,8 +636,8 @@ display:block;
 
 .event ul>li{
 	display:inline-block;
-	width:290px;
-	margin-right:30px;
+	width:30%;
+	margin-right:2%;
 }
 .event ul>li:last-of-type{
 	

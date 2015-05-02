@@ -8,6 +8,11 @@
 	.comverse-header .navbar{
 		display:none;
 	}
+	
+	.banner{
+	padding-bottom:0;
+	}
+	
 	.squre-link-slide{
 		margin-top:100px;
 	}
@@ -26,13 +31,72 @@
 	.squre-link-slide a:hover span{
 		color:white;
 	}
-	
+	.banner-box,
 	.list-box-banner ul{
 	padding:0;
+	border-top:5px solid white;
+	border-bottom:5px solid white;
 	}
 	
 	.list-box-banner li{
 	display:block;
 	width:100%;
+	position:relative;
 	}
+	.banner-box>h3{
+	width:70%;
+	font-size:28px;
+		
+	}
+	
+	.banner-box>div:last-of-type{
+		width:10%;
+		height:100%;
+		margin:0 auto;
+		vertical-align:middle;
+		displa:inline-block;
+	}
+	img.mobile-arrow{
+		display:inline;
+		position:absolute;
+		right:3px;
+		top:48%;
+	}
+	
+	
+	
+	
+	
+	.solution-container{
+	width:32%;
+	
+	}
+
+	.solution-container img{
+	
+	height:60px;
+	}
+	
+	.event ul>li{
+	display:block;
+	padding-left:15px;
+	width:100%;
+	}
+	.post-box{
+	width:95%;
+	}
+	
+	.post-item > p{
+
+	width:70%;
+	}
+	.success-story ul{
+	display:block;
+	margin:0 auto;
+	}
+	.success-story ul:last-of-type{
+	display:none;
+		
+	}
+	
 }
