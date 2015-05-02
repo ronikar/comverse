@@ -462,13 +462,25 @@ margin-bottom:0;
   border-radius: 5px;
   color: white;
   font-size:13px;
+  position:relative;
+  width:150px;
+  display:block;
+  
+}
+.center-line{
+	margin: 0 auto;
 }
 
 
 .link-button img{
+
 padding-left:5px;
 	height:10px;
 	width:10px;
+	position:absolute;
+	right:10px;
+	top:10px;
+	
 }
 
 .squre-link-slide a{
@@ -571,7 +583,7 @@ margin-top:0;
 }
 
 .solution-container{
-	width:130px;
+	width:14%;
 	vertical-align:top;
 	text-align:center;
 	display:inline-block;
@@ -682,10 +694,7 @@ display:block;
 	color:black;
 	background-color:grey;
 }
-.success-story  a{
-	color:black;
-	
-}
+
 
 .one-stories-section
 {
