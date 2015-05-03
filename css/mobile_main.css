@@ -12,8 +12,12 @@
 }
 
 @media(max-width:767px){
+	section
+	{
+		overflow-x:hidden;
+	}
 	.comverse-header{
-	height:70px;
+	1height:70px;
 	overflow-y:hidden;
 	}
 	.mobile-header{
@@ -117,7 +121,7 @@
 	}
 
 	.solution-container img{
-	
+	overflow-x:hidden;
 	height:60px;
 	}
 	
