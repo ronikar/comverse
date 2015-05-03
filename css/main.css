@@ -320,11 +320,6 @@ section{
 	
 }
 
-@media(min-width:601px){
-	.mobile-header{
-	display:none;
-	}
-}
 
 .container{ 
 	max-width: 960px;
@@ -403,7 +398,7 @@ border:none;
 background:none;
 position:relative;
 right:30px;
-top:3px;
+top:1px;
 cursor:pointer;
 }
 .search-header img{
@@ -438,7 +433,7 @@ nav ol> li:hover > ul {
 .banner{
 margin-top:60px;
 padding-top:30px;
-background:url(../img/slide-bg-complexity.jpg) no-repeat center 90px fixed;
+background:url(../img/slide-bg-complexity.jpg) no-repeat center 70px fixed;
 margin-bottom:0;
 }
 
@@ -970,6 +965,9 @@ footer .copyright a
 
 
 @media screen and (min-width: 768px) {
+	.mobile-header{
+		display:none;
+	}
 	.banner{
 		padding-bottom:80px;
 		}
@@ -983,7 +981,7 @@ footer .copyright a
 		width:15px;
 	}
 	.squre-link-slide{
-		margin-top:100px;
+		margin-bottom:70px;
 	}
 	
 }
