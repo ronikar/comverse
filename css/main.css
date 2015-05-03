@@ -322,7 +322,7 @@ section{
 
 
 .container{ 
-	max-width: 960px;
+	
 	width:100%;
 	margin:auto;
 	margin-top:0px;
@@ -330,6 +330,19 @@ section{
 	position:relative;
 }
 
+@media screen and (min-width: 960px) {
+	.container {	
+		max-width: 960px;
+		}
+}
+
+@media screen and (min-width: 768px) and (max-width:959px) {
+	.container {
+	max-width:768px;
+	}
+
+
+}
 .comverse-header img.comverse-logo{
 float:left;
 }
@@ -430,12 +443,7 @@ nav ol> li:hover > ul {
 	color:blue;
 }
 
-.banner{
-margin-top:60px;
-padding-top:30px;
-background:url(../img/slide-bg-complexity.jpg) no-repeat center 70px fixed;
-margin-bottom:0;
-}
+
 
 .banner h2{
 	padding-top:20px;
@@ -447,6 +455,7 @@ margin-bottom:0;
 	font-size:20px;
 	width:350px;
 	padding-bottom:30px;
+	font-weight:100;
 }
 
 .link-button {
@@ -652,9 +661,16 @@ display:block;
 	
 	margin-right:0;
 }
+@media(min-width:960px){
+	.post-box{
+		width:290px;
+	}
+}
 
-.post-box{
-	width:290px;
+@media(max-width:959px) and (min-width:767px){
+	.post-box{
+		width:230px;
+		}
 }
 
 .datePublish
@@ -709,6 +725,19 @@ display:block;
 	vertical-align:top;
 	
 }
+
+@media(min-width:960px){
+	.post-item > p{
+		width:180px;
+	}
+}
+@media(min-width:768px) and (max-width:959px){
+	.post-item > p{
+		width:125px;
+	}
+}
+
+
 .success-story{
 	color:black;
 	background-color:grey;
@@ -744,6 +773,12 @@ display:inline-block;
 vertical-align:top;
 margin-left:5px;
 text-align:left;
+}
+@media(max-width:960px){
+	.success-story ul:last-of-type{
+	display:none;
+		
+	}
 }
 
 .success-story ul>li{
@@ -963,8 +998,26 @@ footer .copyright a
 	content: url("../img/socialMenuIcon-linkdin_hover.png");
 }
 
+@media screen and (min-width: 768px) and (max-width: 959px) {
+	.footer-links-list{
+	padding-left:10%;
+	}
+	.copyright{
+		width:100%;
+		padding-left:10%;
+	}
+}
+
 
 @media screen and (min-width: 768px) {
+	.banner{
+		margin-top:60px;
+		padding-top:30px;
+		background:url(../img/slide-bg-complexity.jpg) no-repeat center 70px fixed;
+		margin-bottom:0;
+	}
+
+
 	.mobile-header{
 		display:none;
 	}
