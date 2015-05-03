@@ -395,7 +395,14 @@ display:inline-block;
  position:relative;
 text-align:right;
 width:30%;
+height:25px;
 }
+@media(max-width:960px) and (min-width:768px){
+	.search-header{
+		width:30%;
+	}
+}
+
 .search-header input{
 width:150px;
 border: 1px solid #ccc;
@@ -999,6 +1006,15 @@ footer .copyright a
 }
 
 @media screen and (min-width: 768px) and (max-width: 959px) {
+
+	.comverse-header img.comverse-logo{
+		padding-top:30px;
+		content:url(../img/comverse-logo-medium.png);
+	}
+	.navbar ol{
+	padding-left:5px;
+	}
+
 	.footer-links-list{
 	padding-left:10%;
 	}
