@@ -330,13 +330,13 @@ section{
 	position:relative;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 971px) {
 	.container {	
 		max-width: 960px;
 		}
 }
 
-@media screen and (min-width: 768px) and (max-width:959px) {
+@media screen and (min-width: 768px) and (max-width:970px) {
 	.container {
 	max-width:768px;
 	}
@@ -397,7 +397,7 @@ text-align:right;
 width:30%;
 height:25px;
 }
-@media(max-width:960px) and (min-width:768px){
+@media(max-width:970px) and (min-width:768px){
 	.search-header{
 		width:30%;
 	}
@@ -668,13 +668,13 @@ display:block;
 	
 	margin-right:0;
 }
-@media(min-width:960px){
+@media(min-width:971px){
 	.post-box{
 		width:290px;
 	}
 }
 
-@media(max-width:959px) and (min-width:767px){
+@media(max-width:970px) and (min-width:767px){
 	.post-box{
 		width:230px;
 		}
@@ -733,12 +733,12 @@ display:block;
 	
 }
 
-@media(min-width:960px){
+@media(min-width:971px){
 	.post-item > p{
 		width:180px;
 	}
 }
-@media(min-width:768px) and (max-width:959px){
+@media(min-width:768px) and (max-width:970px){
 	.post-item > p{
 		width:125px;
 	}
@@ -781,7 +781,7 @@ vertical-align:top;
 margin-left:5px;
 text-align:left;
 }
-@media(max-width:960px){
+@media(max-width:971px){
 	.success-story ul:last-of-type{
 	display:none;
 		
@@ -1005,7 +1005,7 @@ footer .copyright a
 	content: url("../img/socialMenuIcon-linkdin_hover.png");
 }
 
-@media screen and (min-width: 768px) and (max-width: 959px) {
+@media screen and (min-width: 768px) and (max-width: 970px) {
 
 	.comverse-header img.comverse-logo{
 		padding-top:30px;
